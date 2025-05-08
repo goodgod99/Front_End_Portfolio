@@ -79,14 +79,14 @@
     {
         "title": "高雄旅遊手冊",
         "class": "Slicing",
-        "description": "高雄旅遊手冊模板，需求為作業用",
+        "description": "混合 bootstrap 框架製作，高雄旅遊手冊模板",
         "url": "https://goodgod99.github.io/%E9%96%8B%E7%99%BC%E4%B8%AD/%E9%9B%84%E6%97%85/",
         "image": "img/thumbnail/434317524_947224373309114_2556687496187451810_n"
     },
     {
         "title": "高雄飲品介紹",
         "class": "Slicing",
-        "description": "使用 bootstrap 框架製作，需求為作業用",
+        "description": "使用 bootstrap 框架製作",
         "url": "https://goodgod99.github.io/%E9%96%8B%E7%99%BC%E4%B8%AD/%E9%AB%98%E9%9B%84%E9%A3%B2%E6%96%99%E6%8E%92%E8%A1%8C%E6%A6%9C/",
         "image": "img/thumbnail/434253835_942825234028720_9130284428625921148_n"
     },
@@ -107,14 +107,14 @@
     {
         "title": "倉鼠飼養指南",
         "class": "Slicing",
-        "description": "使用模板網頁改寫，需求為作業用",
+        "description": "使用模板網頁改寫",
         "url": "https://goodgod99.github.io/%E9%96%8B%E7%99%BC%E4%B8%AD/HAMSTERS'%20WORLD/",
         "image": "img/thumbnail/432453314_252168331222745_6262599394777095336_n"
     },
     {
         "title": "Postcrossing 介紹 | 國際明信片交換平台",
         "class": "Slicing",
-        "description": "使用模板網頁改寫，需求為作業用",
+        "description": "使用模板網頁改寫",
         "url": "https://goodgod99.github.io/%E9%96%8B%E7%99%BC%E4%B8%AD/Tidy_Blog/",
         "image": "img/thumbnail/432540025_788225899508731_3160591664976984591_n"
     }
