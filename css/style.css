@@ -1,0 +1,207 @@
+html {
+  font-size: 14px;
+  font-family: "Noto Sans TC", "Roboto", sans-serif !important;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+#intro {
+  z-index: 98;
+  background-color: #fff;
+  justify-content: center;
+  transition: opacity 0.5s;
+}
+#intro #lottie {
+  width: 50%;
+}
+
+#wave-backgroung {
+  position: fixed;
+  z-index: -1;
+  width: 100vw;
+  top: -200px;
+  transition: transform 0.5s;
+}
+#wave-backgroung #wave-lottie {
+  width: 100%;
+}
+#wave-backgroung .orange {
+  background-color: #A2D1FF;
+  width: 100%;
+  height: 1500px;
+  transform: translateY(-1px);
+}
+
+#site-container {
+  padding-top: 20px;
+}
+
+aside header img {
+  width: 70%;
+  cursor: pointer;
+}
+aside nav ul {
+  padding-left: 20px;
+}
+aside nav ul li button,
+aside nav ul li a {
+  display: block;
+  text-decoration: none;
+  border: none;
+  background: none;
+  padding: 30px 0 0 0;
+  color: #000;
+  transition: color 0.3s;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: start;
+}
+aside nav ul li button:hover,
+aside nav ul li a:hover {
+  color: #4a7dad;
+}
+aside nav ul li button.active,
+aside nav ul li a.active {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+aside nav ul li button.active:hover,
+aside nav ul li a.active:hover {
+  color: #000;
+}
+aside label {
+  display: none;
+}
+aside input {
+  display: none;
+}
+
+main .project-covers a {
+  display: block;
+  text-decoration: none;
+  transition: opacity 0.5s;
+}
+main .project-covers a:hover .img-box img {
+  opacity: 1;
+}
+main .project-covers a .img-box {
+  width: 100%;
+  aspect-ratio: 3/2;
+  overflow: hidden;
+}
+main .project-covers a .img-box img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: opacity 0.3s;
+  opacity: 0.85;
+}
+main .project-covers a .text-box {
+  padding: 10px 10px 25px 0;
+}
+main .project-covers a .text-box h3 {
+  font-size: 1rem;
+  line-height: 1;
+  color: #000;
+}
+main .project-covers a .text-box p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  line-height: 1.4;
+  color: #353535;
+}
+main .arrow-up {
+  display: flex;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #d7dee9;
+  opacity: 0.5;
+}
+main .arrow-up:hover .bi-arrow-up {
+  color: #000;
+}
+main .arrow-up .bi-arrow-up {
+  height: 25px;
+  width: 25px;
+  color: #4a7dad;
+  transition: color 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  #wave-backgroung {
+    top: 400px;
+  }
+  #site-container {
+    padding-top: 80px;
+  }
+  aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 90%, rgba(255, 255, 255, 0));
+    z-index: 95;
+  }
+  aside header {
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    z-index: 99;
+  }
+  aside header img {
+    width: 70px;
+  }
+  aside nav {
+    z-index: 97;
+    position: fixed;
+    top: 0;
+    right: -100vw;
+    transition: right 0.3s;
+  }
+  aside nav ul {
+    padding-left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  aside nav ul li a {
+    text-align: center;
+  }
+  aside label {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    z-index: 98;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: 100;
+    color: #0a232e;
+    cursor: pointer;
+  }
+  aside input {
+    display: none;
+  }
+  aside input:checked + nav {
+    right: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
