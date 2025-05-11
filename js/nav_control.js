@@ -30,10 +30,22 @@ buttons.forEach(button => {
     });
 });
 
+function showForm() {
+    const formContainer = document.getElementById('contact-form');
+    formContainer.style.display = 'block';
+    setTimeout(() => {
+        formContainer.style.opacity = '1';
+    }, 100);
+
+}
+
 // 根據點擊button過濾專案
 function filterProjectsByCategory(category) {
     const projectContainer = document.querySelectorAll('#project a');
-    projectContainer.forEach(project => {
+    const contactForm = document.getElementById('contact-form');
+    const allObjects = [...projectContainer, contactForm];
+
+    allObjects.forEach(project => {
         project.style.opacity = '0';
         setTimeout(() => {
             if (category === 'All') {
@@ -41,7 +53,8 @@ function filterProjectsByCategory(category) {
                 setTimeout(() => {
                     project.style.opacity = '1';
                 }, 100);
-            } else {
+            }
+            else {
                 if (project.classList.contains(category)) {
                     project.style.display = 'block';
                     setTimeout(() => {
