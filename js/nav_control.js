@@ -49,11 +49,17 @@ function filterProjectsByCategory(category) {
         project.style.opacity = '0';
         setTimeout(() => {
             if (category === 'All') {
-                project.style.display = 'block';
-                setTimeout(() => {
-                    project.style.opacity = '1';
-                }, 100);
+                if (project === contactForm) {
+                    project.style.display = 'none';
+                }
+                else {
+                    project.style.display = 'block';
+                    setTimeout(() => {
+                        project.style.opacity = '1';
+                    }, 100);
+                }
             }
+            
             else {
                 if (project.classList.contains(category)) {
                     project.style.display = 'block';
