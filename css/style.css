@@ -46,6 +46,10 @@ body::-webkit-scrollbar {
 aside header img {
   width: 70%;
   cursor: pointer;
+  transition: transform 0.5s;
+}
+aside header img:hover {
+  transform: scale(1.1);
 }
 aside nav ul {
   padding-left: 20px;
