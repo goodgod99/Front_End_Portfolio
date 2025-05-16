@@ -1,6 +1,6 @@
 # Front-End Portfolio
 
-這是一個個人前端作品集網站，展示多個網頁切版、Figma 設計與練習專案，並結合動畫與互動效果，提升瀏覽體驗。
+這是一個我的前端作品集網站，展示多個網頁切版、Figma 設計與練習專案，並結合動畫與互動效果，提升瀏覽體驗。
 
 ## 專案結構
 
@@ -9,6 +9,13 @@
 - `js/`：JavaScript 功能腳本
 - `img/`：網站圖片與 LOGO
 - `data/`：專案資料與動畫 JSON
+
+## 使用技術
+
+- HTML5、CSS3（SCSS）、JavaScript（ES6）
+- [Bootstrap 5](https://getbootstrap.com/)
+- [Lottie-web](https://airbnb.io/lottie/#/web)
+- [Google Fonts](https://fonts.google.com/)
 
 ## 技術細節
 
@@ -40,14 +47,11 @@
 - LOGO 支援滑鼠移入時自動切換圖片，增加互動感。
 - 相關程式碼：[js/logo_control.js](js/logo_control.js)
 
-## 線上預覽
+## 預覽
 
-已透過 Vercel 部署，可直接點擊網址瀏覽本作品集：
+已透過 Vercel 部署，可直接點擊網址瀏覽本作品集：  
 [https://yochen-portfolio.vercel.app/](https://yochen-portfolio.vercel.app/)
-
-## 頁面預覽
-
-![網站預覽](img/previe-image.png)
+<img src="img/previe-image.png" alt="網站預覽" width="450">
 
 ---
 
