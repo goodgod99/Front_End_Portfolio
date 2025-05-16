@@ -50,7 +50,7 @@
 ## 預覽
 
 已透過 Vercel 部署，可直接點擊網址瀏覽本作品集：  
-[https://yochen-portfolio.vercel.app/](https://yochen-portfolio.vercel.app/)
+[https://yochen-portfolio.vercel.app/](https://yochen-portfolio.vercel.app/)  
 <img src="img/previe-image.png" alt="網站預覽" width="450">
 
 ---
