@@ -27,12 +27,7 @@ window.addEventListener('scroll', function () {
                 speedMultiplier = -0.5;
             }
 
-            /* wave.style.transform = 'translateY(' + offset * speedMultiplier + 'px)';
-            isScrolling = false; */
-            if (wave) {
-                wave.style.willChange = 'transform';
-                wave.style.transform = 'translate3d(0,' + (offset * speedMultiplier) + 'px,0)';
-            }
+            wave.style.transform = 'translateY(' + offset * speedMultiplier + 'px)';
             isScrolling = false;
         });
     }
